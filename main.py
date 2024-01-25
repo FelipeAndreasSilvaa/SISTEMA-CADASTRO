@@ -6,8 +6,8 @@ app.secret_key = "flash_message"
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Ciclope10$'
-app.config['MYSQL_DB'] = 'sistema_login_cadastro'
+app.config['MYSQL_PASSWORD'] = 'sua senha'
+app.config['MYSQL_DB'] = 'seu banco'
 
 mysql_conn = mysql.connector.connect(
     host = app.config['MYSQL_HOST'],
